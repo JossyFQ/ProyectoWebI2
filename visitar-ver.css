@@ -1,0 +1,86 @@
+/* Estilo para el formulario de historial */
+form.historial {
+    margin-bottom: 30px;
+}
+
+/* Estilo para el título del formulario */
+form.historial h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la tabla de Historia Clínica General */
+form.historial #tableGeneral {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Estilo para las celdas de cabecera de la tabla de Historia Clínica General */
+form.historial #tableGeneral th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de datos de la tabla de Historia Clínica General */
+form.historial #tableGeneral td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo alternativo para filas de la tabla de Historia Clínica General */
+form.historial #tableGeneral tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el texto de las celdas de la tabla de Historia Clínica General */
+form.historial #tableGeneral td, form.historial #tableGeneral th {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para el formulario de diagnóstico */
+form.diagnostico {
+    margin-bottom: 30px;
+}
+
+/* Estilo para el título del formulario de diagnóstico */
+form.diagnostico h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la tabla de Diagnóstico Clínico del Paciente */
+form.diagnostico #tableOperatoria {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas de cabecera de la tabla de Diagnóstico Clínico del Paciente */
+form.diagnostico #tableOperatoria th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de datos de la tabla de Diagnóstico Clínico del Paciente */
+form.diagnostico #tableOperatoria td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo alternativo para filas de la tabla de Diagnóstico Clínico del Paciente */
+form.diagnostico #tableOperatoria tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el texto de las celdas de la tabla de Diagnóstico Clínico del Paciente */
+form.diagnostico #tableOperatoria td, form.diagnostico #tableOperatoria th {
+    font-size: 16px;
+    color: #333;
+}
